@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Dietku</string>
+    <string name="menu_diet">Menu Diet</string>
+    <string name="detail_menu_diet">Detail Menu Diet</string>
+    <string name="program_diet">Program Diet</string>
+    <string name="jadwal_program_diet">Jadwal Program Diet</string>
+    <string name="about">About</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

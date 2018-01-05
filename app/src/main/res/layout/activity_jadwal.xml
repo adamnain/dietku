@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDivider"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/judul_program"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1"
+            android:background="@color/colorWhite"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Program Diet Mayo\n(hanya 30 hari)"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorTextPrimary"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="12dp"
+        android:layout_weight="4"
+        android:background="@color/colorWhite"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:layout_marginBottom="12dp"
+            android:text="Kalender Diet"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryLight"
+            android:textAllCaps="true"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/hari_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_4"
+                android:text="1"
+                android:textColor="@color/colorTextWhite"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/hari_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_4"
+                android:text="2"
+                android:textColor="@color/colorTextWhite"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/hari_3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_4"
+                android:text="3"
+                android:textColor="@color/colorTextWhite"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/hari_4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_4"
+                android:text="4"
+                android:textColor="@color/colorTextWhite"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/hari_5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_4"
+                android:text="5"
+                android:textColor="@color/colorTextWhite"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/hari_6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_4"
+                android:text="6"
+                android:textColor="@color/colorTextWhite"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/hari_7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_4"
+                android:text="7"
+                android:textColor="@color/colorTextWhite"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/hari_8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_4"
+                android:text="8"
+                android:textColor="@color/colorTextWhite"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/hari_9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_4"
+                android:text="9"
+                android:textColor="@color/colorTextWhite"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/hari_10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_4"
+                android:text="10"
+                android:textColor="@color/colorTextWhite"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/hari_11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_4"
+                android:text="11"
+                android:textColor="@color/colorTextWhite"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/hari_12"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_4"
+                android:text="12"
+                android:textColor="@color/colorTextWhite"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/hari_13"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_4"
+                android:text="13"
+                android:textColor="@color/colorTextWhite"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/hari_14"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_4"
+                android:text="14"
+                android:textColor="@color/colorTextWhite"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/hari_15"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_4"
+                android:text="15"
+                android:textColor="@color/colorTextWhite"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/hari_16"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_4"
+                android:text="16"
+                android:textColor="@color/colorTextWhite"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/hari_17"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_4"
+                android:text="17"
+                android:textColor="@color/colorTextWhite"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/hari_18"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_4"
+                android:text="18"
+                android:textColor="@color/colorTextWhite"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/hari_19"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_4"
+                android:text="19"
+                android:textColor="@color/colorTextWhite"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/hari_20"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_4"
+                android:text="20"
+                android:textColor="@color/colorTextWhite"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/hari_21"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_4"
+                android:text="21"
+                android:textColor="@color/colorTextWhite"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/hari_22"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_4"
+                android:text="22"
+                android:textColor="@color/colorTextWhite"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/hari_23"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_4"
+                android:text="23"
+                android:textColor="@color/colorTextWhite"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/hari_24"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_4"
+                android:text="24"
+                android:textColor="@color/colorTextWhite"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/hari_25"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_4"
+                android:text="25"
+                android:textColor="@color/colorTextWhite"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/hari_26"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_4"
+                android:text="26"
+                android:textColor="@color/colorTextWhite"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/hari_27"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_4"
+                android:text="27"
+                android:textColor="@color/colorTextWhite"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/hari_28"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_4"
+                android:text="28"
+                android:textColor="@color/colorTextWhite"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/hari_29"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_4"
+                android:text="29"
+                android:textColor="@color/colorTextWhite"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/hari_30"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_4"
+                android:text="30"
+                android:textColor="@color/colorTextWhite"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
